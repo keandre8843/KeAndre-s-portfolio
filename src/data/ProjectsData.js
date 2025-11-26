@@ -1,12 +1,15 @@
+import littleLemonImage from '../assets/Little-Lemon-WebPage.png';
+import comingSoonImage from '../assets/coming-soon-placeholder.png';
+
 export const projects = [
   {
     id: 1,
     title: "Little Lemon Restaurant",
     description: "Full-featured restaurant booking application with React Router, form validation, and responsive design. Includes accessible navigation, mobile hamburger menu, and comprehensive unit testing.",
     technologies: ["React", "React Router", "React Testing Library", "CSS3", "JavaScript"],
-    liveUrl: "https://your-little-lemon.vercel.app", // Update with your actual URL
+    liveUrl: "https://little-lemon-booking-murex.vercel.app/", // Update with your actual URL
     githubUrl: "https://github.com/keandre8843/Little-Lemon-Booking",
-    image: "/images/little-lemon-preview.png", // Add screenshot to public/images folder
+    image: littleLemonImage,
     featured: true,
     status: "completed",
     highlights: [
@@ -25,7 +28,7 @@ export const projects = [
     technologies: ["TypeScript", "React", "API Integration", "LocalStorage"],
     liveUrl: null,
     githubUrl: null,
-    image: "/images/coming-soon-placeholder.png",
+    image: comingSoonImage,
     featured: false,
     status: "coming-soon",
     highlights: [
@@ -44,7 +47,7 @@ export const projects = [
     technologies: ["React", "Figma", "CSS3", "Design Systems"],
     liveUrl: null,
     githubUrl: null,
-    image: "/images/coming-soon-placeholder.png",
+    image: comingSoonImage,
     featured: false,
     status: "coming-soon",
     highlights: [

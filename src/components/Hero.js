@@ -1,4 +1,4 @@
-import react from 'react';
+import React from 'react';
 
 function Hero() {
     return (
@@ -11,11 +11,11 @@ function Hero() {
           Frontend Developer building accessible, scalable web experiences
         </h2>
         <p className="hero-description">
-          I specialize in React, semantic HTML, and test-driven development—crafting 
+          I specialize in React, semantic HTML, and test-driven development - crafting 
           user interfaces that convert and scale. Currently seeking frontend engineering 
           opportunities to build impactful products.
         </p>
-        <div classname="hero-cta">
+        <div className="hero-cta">
             <a href='#projects' className="btn-primary">View My Work</a>
             <a href='#contact' className="btn-secondary">Get In Touch</a>
         </div>
