@@ -36,7 +36,7 @@ function Contact() {
                         </div>
                     </a>
                     <a 
-                        href="https://www.linkedin.com/in/keandre-sadler-b80161112/" 
+                        href="https://www.linkedin.com/in/keandre-sadler/" 
                         className="contact-method"
                         target="_blank"
                         rel="noopener noreferrer"
