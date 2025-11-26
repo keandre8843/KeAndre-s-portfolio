@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal portfolio showcasing my frontend development work and projects.
 
-## Available Scripts
+[View Live Site →](https://your-portfolio-url.vercel.app)
 
-In the project directory, you can run:
+## 🎯 About
 
-### `npm start`
+This portfolio demonstrates my skills in React, modern JavaScript, and frontend development. Built from scratch to showcase my projects with a focus on user experience, accessibility, and clean code architecture.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ✨ Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Custom Scroll Animations** - Smooth entrance effects using Intersection Observer API
+- **Responsive Design** - Optimized for mobile, tablet, and desktop viewing
+- **Accessible Navigation** - ARIA labels, semantic HTML, and keyboard support
+- **Project Showcase** - Dynamic filtering and detailed project cards
+- **Professional Contact Section** - Multiple ways to connect with downloadable resume
+- **Modern UI/UX** - Clean design with attention to typography and spacing
 
-### `npm test`
+## 🛠️ Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React** - Component-based UI library
+- **JavaScript (ES6+)** - Modern JavaScript features
+- **CSS3** - Grid, Flexbox, custom animations
+- **Intersection Observer API** - Scroll-triggered animations
+- **Vercel** - Deployment and hosting
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Node.js (v14 or higher)
+- npm or yarn
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repository
+```bash
+git clone https://github.com/keandre8843/keandres-portfolio.git
+cd keandres-portfolio
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Open [http://localhost:3000](http://localhost:3000) to view in browser
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Building for Production
 
-## Learn More
+```bash
+npm run build
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📂 Project Structure
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+keandres-portfolio/
+├── public/
+│   ├── resume.pdf          # Downloadable resume
+│   └── index.html
+├── src/
+│   ├── components/         # React components
+│   │   ├── Header.js
+│   │   ├── Hero.js
+│   │   ├── About.js
+│   │   ├── Projects.js
+│   │   ├── ProjectsCards.js
+│   │   ├── Skills.js
+│   │   ├── Contact.js
+│   │   └── Footer.js
+│   ├── Hooks/
+│   │   └── useScrollAnimation.js  # Custom scroll animation hook
+│   ├── data/
+│   │   └── ProjectsData.js        # Project information
+│   ├── assets/                    # Images and static files
+│   ├── App.js
+│   ├── App.css                    # Main styles
+│   └── scrollAnimations.css       # Animation styles
+└── package.json
+```
 
-### Code Splitting
+## 🎨 Key Components
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Custom Scroll Animations
+Implemented using Intersection Observer API for performance-optimized scroll effects:
+```javascript
+const { ref, isVisible } = useScrollAnimation({ threshold: 0.2 });
+```
 
-### Analyzing the Bundle Size
+### Responsive Layout
+Mobile-first design with breakpoints for optimal viewing on all devices:
+- Mobile: < 640px
+- Tablet: 640px - 1024px
+- Desktop: > 1024px
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Dynamic Project Filtering
+Filter projects by technology stack with smooth transitions and state management.
 
-### Making a Progressive Web App
+## 📱 Sections
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. **Hero** - Introduction with call-to-action buttons
+2. **About** - Background and professional summary
+3. **Projects** - Showcase of development projects with live demos and code links
+4. **Skills** - Technical skills and technologies
+5. **Contact** - Multiple contact methods and resume download
+6. **Footer** - Social links and navigation
 
-### Advanced Configuration
+## 🌐 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+This project is deployed on Vercel with continuous deployment from the main branch.
 
-### Deployment
+### Deploy Your Own
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/keandre8843/keandres-portfolio)
 
-### `npm run build` fails to minify
+## 📄 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open source and available under the [MIT License](LICENSE).
+
+## 👤 Contact
+
+**KeAndre Sadler**
+
+- Portfolio: [your-portfolio-url.vercel.app](https://your-portfolio-url.vercel.app)
+- LinkedIn: [linkedin.com/in/keandre-sadler-b80161112](https://linkedin.com/in/keandre-sadler-b80161112)
+- GitHub: [github.com/keandre8843](https://github.com/keandre8843)
+- Email: keandresadler@gmail.com
+
+## 🙏 Acknowledgments
+
+- Design inspiration from modern portfolio websites
+- Icons and animations crafted with attention to accessibility
+- Built as part of my journey transitioning into frontend development
+
+---
+
+⭐ Star this repo if you find it helpful!
