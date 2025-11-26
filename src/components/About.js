@@ -25,6 +25,12 @@ function About() {
                         journeys that scale and convert.
                     </p>
                     <p>
+                        I built this portfolio from scratch using React, implementing custom 
+                        scroll animations and accessible design patterns to create a smooth, 
+                        engaging experience. Every project I build reflects my commitment to 
+                        clean code, thoughtful UX, and technical excellence.
+                    </p>
+                    <p>
                         Long-term, I'm working toward becoming a senior frontend engineer 
                         or software developer, leading impactful projects that blend 
                         technical excellence with real-world usability.
