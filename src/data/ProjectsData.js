@@ -38,7 +38,7 @@ export const projects = [
       "Progress visualization with charts"
     ],
     category: "web-app",
-    expectedDate: "December 2025"
+    expectedDate: "Spring 2026"
   },
   {
     id: 3,
@@ -57,6 +57,6 @@ export const projects = [
       "Interactive component documentation"
     ],
     category: "design",
-    expectedDate: "December 2025"
+    expectedDate: "Spring 2026"
   }
 ];
